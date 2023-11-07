@@ -10,8 +10,8 @@ repository = "https://github.com/dephy-io/dephy-proto"
 license = "MIT OR Apache-2.0"
 
 include = [
-  "src/**/*",
-  "proto/**/*",
+  "src/**/*.rs",
+  "proto/**/*.proto",
   "Cargo.toml",
   "build.rs"
 ]

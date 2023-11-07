@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        /* Basic Options */
+        // "incremental": true,                   /* Enable incremental compilation */
+        "module": "esnext",
+        "outDir": "dist/",
+        "target": "ES2019",
+        "lib": [
+            "ES2019",
+            "dom"
+        ],
+        /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
+        "declaration": true /* Generates corresponding '.d.ts' file. */,
+        "declarationDir": "dist/t",
+        "emitDeclarationOnly": true,
+        "strict": true /* Enable all strict type-checking options. */,
+
+        "moduleResolution": "node" /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */,
+        "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        /* Advanced Options */
+        "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
+        //        "allowImportingTsExtensions": true
+    },
+    "include": [
+        "src/**/*.ts"
+    ]
+}

@@ -166,3 +166,12 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+src/reexport.ts
+src/messages
+src/runtime
+
+.parcel-cache
+
+*.ts-e
+ts.generated

@@ -1,6 +1,6 @@
 [package]
 name = "dephy_proto"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["krhougs <os@kt.je>"]
 edition = "2021"
 resolver = "2"
@@ -9,8 +9,12 @@ homepage = "https://dephy.io/"
 repository = "https://github.com/dephy-io/dephy-proto"
 license = "MIT OR Apache-2.0"
 
-[lib]
-crate-type = ["staticlib"]
+include = [
+  "src/**/*",
+  "proto/**/*",
+  "Cargo.toml",
+  "build.rs"
+]
 
 [dependencies]
 prost = { version = "0.12.1" }

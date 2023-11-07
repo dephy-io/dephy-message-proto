@@ -1,0 +1,15 @@
+[package]
+name = "dephy_proto"
+version = "0.1.0"
+authors = ["krhougs <os@kt.je>"]
+edition = "2021"
+resolver = "2"
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+prost = { version = "0.12.1" }
+
+[build-dependencies]
+prost-build = { version = "0.12.1" }

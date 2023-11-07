@@ -4,6 +4,10 @@ version = "0.1.0"
 authors = ["krhougs <os@kt.je>"]
 edition = "2021"
 resolver = "2"
+description = "Protobuf definitions in DePHY."
+homepage = "https://dephy.io/"
+repository = "https://github.com/dephy-io/dephy-proto"
+license = "MIT OR Apache-2.0"
 
 [lib]
 crate-type = ["staticlib"]

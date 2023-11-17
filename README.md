@@ -29,10 +29,16 @@ Usually, a DePHY device send Direct Messages to:
     - the message binary should be the HTTP body
 
 # Routed Message
-A `Routed Message` in DePHY is a [NoStr event](https://github.com/nostr-protocol/nips/blob/master/01.md) wrapping a `Direct Message` which will be redistributed by Edge Brokers in a `NoStr` decentralized network.
+A `Routed Message` in DePHY is a [NoStr event](https://github.com/nostr-protocol/nips/blob/master/01.md) wrapping a `Direct Message` which will be redistributed by Edge Brokers in a `NoStr` decentralized network:
+- The `kind` of the event should be `1111`.
+- The `content` should be a Direct Message encoded in Base58 (a.k.a `base58(bytes(SignedMessage))`).
+- It should contain these tags:
+    - `c` is the marker of a Routed Message and should be always `dephy`
+    - `dephy_from` is the DID string of the message sender
+    - `dephy_to` is the DID string of the message recipent
+    - `dephy_edge` is the DID string of the message forwarder
 
-The `kind` of the event should be `1111` and the `content` should be a Direct Message(`base58(bytes(SignedMessage))`).
-
+And it looks like this:
 ```json
 {
   "id": "...",

@@ -1,6 +1,6 @@
 [package]
 name = "dephy_proto"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["krhougs <os@kt.je>"]
 edition = "2021"
 resolver = "2"

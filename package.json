@@ -1,6 +1,6 @@
 {
   "name": "dephy-proto",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Protobuf definitions for DePHY messages.",
   "homepage": "https://dephy.io/",
   "repository": "https://github.com/dephy-io/dephy-message-proto",

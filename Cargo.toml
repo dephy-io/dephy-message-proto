@@ -1,5 +1,5 @@
 [package]
-name = "dephy-proto"
+name = "dephy_proto"
 version = "0.1.2"
 authors = ["krhougs <os@kt.je>"]
 edition = "2021"

@@ -17,6 +17,8 @@ The JavaScript/TypeScript package for Node.js and Deno is built with [pbkit](htt
 ### Direct Message
 A `Direct Message` in DePHY is a message for DePHY devices and Edge Brokers to communicate directly in `Protocol Buffer` encoding.
 
+[Check the definitions here](./proto/message.proto).
+
 It should be transferred in binary when interacting between the device and Edge Brokers’ service endpoints(MQTT or HTTP).
 
 Usually, a DePHY device send Direct Messages to:

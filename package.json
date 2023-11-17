@@ -1,9 +1,9 @@
 {
   "name": "dephy-proto",
-  "version": "0.1.1-fix-1",
-  "description": "Protobuf definitions in DePHY.",
+  "version": "0.1.2",
+  "description": "Protobuf definitions for DePHY messages.",
   "homepage": "https://dephy.io/",
-  "repository": "https://github.com/dephy-io/dephy-proto",
+  "repository": "https://github.com/dephy-io/dephy-message-proto",
   "license": "MIT OR Apache-2.0",
   "source": "src/index.ts",
   "main": "dist/cjs/index.js",

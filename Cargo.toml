@@ -1,20 +1,15 @@
 [package]
-name = "dephy_proto"
-version = "0.1.1"
+name = "dephy-proto"
+version = "0.1.2"
 authors = ["krhougs <os@kt.je>"]
 edition = "2021"
 resolver = "2"
-description = "Protobuf definitions in DePHY."
+description = "Protobuf definitions for DePHY messages."
 homepage = "https://dephy.io/"
-repository = "https://github.com/dephy-io/dephy-proto"
+repository = "https://github.com/dephy-io/dephy-message-proto"
 license = "MIT OR Apache-2.0"
 
-include = [
-  "src/**/*.rs",
-  "proto/**/*.proto",
-  "Cargo.toml",
-  "build.rs"
-]
+include = ["src/**/*.rs", "proto/**/*.proto", "Cargo.toml", "build.rs"]
 
 [dependencies]
 prost = { version = "0.12.1" }
